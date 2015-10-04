@@ -27,7 +27,7 @@
                         <div id="name-and-slogan">
 						<?php if ($site_name):?>
                         <div id="site-name">
-                        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">                  </a>
+                        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
                         </div>
                         <?php endif; ?>
                         
@@ -141,7 +141,7 @@
 <!--slider-item-->
 <div class="slider-item">
 <div class="slider-item-image"><img src="<?php print base_path() . drupal_get_path('theme', 'corkedscrewer') ;?>/images/local/slider-img1.png"/></div>
-<div class="slider-item-title light">Cat Gifts </div>
+<div class="slider-item-title">Cat Gifts </div>
 <div class="slider-item-body">Best Online Buys</div>
 </div>
 <!--EOF:slider-item-->
